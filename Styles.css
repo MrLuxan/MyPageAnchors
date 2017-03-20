@@ -1,0 +1,80 @@
+#anchorContainer{
+ 	position:fixed;
+	top: 20px;
+	left:0px;
+	z-index:2147483647;	
+	width: 206px;
+
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	text-align: left;
+}
+
+#anchorContainer div{
+	box-sizing: content-box;
+}
+
+#anchorBox {
+	border:1px #000 solid;
+	border-left-width: 0px;
+	background-color:#FFF; 
+	width: 176px;
+	float: left;
+	min-height: 85px;
+	padding: 5px;
+
+
+}
+
+#anchorList{
+
+    padding: 0;
+    margin: 0 0 20px 15px;
+    
+
+	
+}
+
+
+#anchorList li{
+	padding-right: 3px;
+	list-style-type: circle;
+}
+
+#addNewAnchor{
+	position: absolute;
+	bottom: 5px;
+	cursor: pointer;
+	width: 175px;
+	border-top: 1px #CCC solid;
+	padding-top: 3px;
+}
+
+#anchorTab{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border:1px #000 solid;
+	border-left-color: #CCC;
+	background-color: #FFF;
+	width: 18px;
+	height: 70px;
+	cursor: pointer;
+}
+
+.AnchorItem{
+	width: 140px;
+	display: inline;
+	cursor: pointer;
+}
+
+.DeleteAnchorItem{
+	width: 10px;
+	float:right;
+	cursor: pointer;
+}
+
+#anchorTabText{
+	transform: rotate(-90deg);
+	margin-top: 30px;
+	cursor: pointer;
+}
