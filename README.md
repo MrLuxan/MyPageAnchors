@@ -4,7 +4,7 @@
 
 Create your own page anchors to quickly navigate to importing sections 
 
-![AppIamge](http://i.imgur.com/bxI2oAQ.gif)
+<img src="http://i.imgur.com/bxI2oAQ.gif">
 
 ---
 
